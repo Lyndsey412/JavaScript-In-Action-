@@ -17,13 +17,13 @@ console.log(`Ive never seen a ${colorInput} ${animalInput}!`);
 //Chicken Salad
 //Steak Potatoes and Asparagus
 
-let timeOfDay = 2100
+let timeOfDay = 1500
 let favoriteMeals;
 
 if (timeOfDay < 1200){
     favoriteMeals ='Breakfast Burrito';
 }
-else if(timeOfDay >= 1200 || timeOfDay <= 1700){
+else if(timeOfDay == 1200 || timeOfDay <= 1700){
     favoriteMeals = 'Chicken Salad';
 }
 else if(timeOfDay > 1700){
@@ -32,6 +32,7 @@ else if(timeOfDay > 1700){
 console.log(favoriteMeals)
 
 //Task Two
+
 let bestBands = Math.floor(Math.random() * 11)
 
 if (bestBands >= 0 && bestBands <=2){
@@ -48,6 +49,27 @@ else if (bestBands == 9 || 10){
 }
 console.log(bestBands)
 
+//For Loops
+//Task One
 
+for (let i = 0; i < 7; i++){
+    console.log('JavaScript is cool!')
+}
+
+//Task Two
+
+for (let i = 0; i <= 10; i++){
+    console.log(i)
+}
+
+//Task Three
+
+for (let i = 0; i < 8; i++){
+    console.log('hello'+'goodbye')
+}
+
+
+//Functions
+//Task One 
 
 
